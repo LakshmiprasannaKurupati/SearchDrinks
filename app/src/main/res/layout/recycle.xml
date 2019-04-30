@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:id="@+id/imagesec"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background"/>
+    <TextView
+        android:id="@+id/recycle_coctail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
